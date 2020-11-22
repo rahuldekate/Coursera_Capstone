@@ -12,5 +12,5 @@ Secondly i will create hotspots on map which suggests location for establishing 
 Data is extraction from a website which will provide names , postal code of the neighborhoods.Then , with the help of pandas library we will create dataframe of neighborhood.
 Now, for plotting location on map will need coordinates which will provided with the help of geopy library.After getting coordinates we will append it to dataframe.
 Next step is to gain access to Foursquare api and extract different venues and their other information which are required for the project.
-We will append the information from foursquare to our dataframe.For clustering of neighborhood we will use K-Means Clustering algorithm.
-Wthe help of this data from foursquare,we will recommend location for setting up a restaurant 
+We will append the information from foursquare to our dataframe followed by clustering neighborhoods.For clustering of neighborhood we will use K-Means Clustering algorithm.
+With help of this data from foursquare,we will recommend location for setting up a restaurant.
