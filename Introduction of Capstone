@@ -2,11 +2,21 @@
 
 #Introduction / Business problem
 
-My final project will be based on neighborhood clustering and location recommendation in city of Mumbai,India.First , i will be clustering different neighborhoods with the help of extracted data.Secondly i will create hotspots on map which suggests location for establishing or help to set up a restaurant. The recommading inforamation generating with this project will recommend to new start ups who are looking for a place to set up their business. Also , the recommendation is not only based on location but it will also tell the type of or which cuisine restaurent is popular.
+My final project will be based on neighborhood clustering and location recommendation in city of Mumbai,India.
+First , i will be clustering different neighborhoods with the help of extracted data.
+Secondly i will create hotspots on map which suggests location for establishing or help to set up a restaurant. 
+The recommading inforamation generating with this project will recommend to new start ups who are looking for a place to set up their business. 
+Also , the recommendation is not only based on location but it will also tell the type of or which cuisine restaurent is popular.
 
 
 #Data Section
 
-For this project, will require data about places , data is extracted from a website which will provide names , postal codes of the neighborhoods.Then , with the help of pandas library we will create dataframe of neighborhood.
+For this project, will require data about places , data is extracted from a website which will provide names , postal codes of the neighborhoods.
+Then , with the help of pandas library we will create dataframe of neighborhood.
 Now, for plotting location on map will need coordinates which will provided with the help of geopy library.After getting coordinates we will append it to dataframe.
-Next step is to gain access to Foursquare api and extract different venues and their other information which are required for the project.This inforamtion incluedes venues name,coordinates, venue category. We will append this information from foursquare to our dataframe followed by clustering of neighborhoods.For clustering of neighborhood we will use K-Means Clustering algorithm.Clustering is based on the venues categories.For recommendation , parameters like parking , people crowd are relevant for a restaurant.For this , we will separate venues related to parking areas and plot it on map for more clear vision. With help of this data ,a owner can find a better location for his/her restaurant.
+Next step is to gain access to Foursquare api and extract different venues and their other information which are required for the project.
+This inforamtion incluedes venues name,coordinates, venue category. We will append this information from foursquare to our dataframe followed by clustering of neighborhoods.
+For clustering of neighborhood we will use K-Means Clustering algorithm.Clustering is based on the venues categories.For recommendation , parameters like parking , people crowd 
+are relevant for a restaurant.
+For this , we will separate venues related to parking areas and plot it on map for more clear vision.
+With help of this data ,a owner can find a better location for his/her restaurant.
