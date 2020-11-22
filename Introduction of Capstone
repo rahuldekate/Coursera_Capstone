@@ -1,4 +1,16 @@
-#Introduction/Business problem
+
+
+#Introduction / Business problem
+
 My final project will be based on neighborhood clustering and location recommendation in city of Mumbai,India.
 First , i will be clustering different neighborhoods with the help of extracted data.
-Secondly i will create spots on map which suggests location for establishing or help to set up a restaurant. 
+Secondly i will create hotspots on map which suggests location for establishing or help to set up a restaurant. 
+
+
+#Procedure
+
+Data is extraction from a website which will provide names , postal code of the neighborhoods.Then , with the help of pandas library we will create dataframe of neighborhood.
+Now, for plotting location on map will need coordinates which will provided with the help of geopy library.After getting coordinates we will append it to dataframe.
+Next step is to gain access to Foursquare api and extract different venues and their other information which are required for the project.
+We will append the information from foursquare to our dataframe.For clustering of neighborhood we will use K-Means Clustering algorithm.
+Wthe help of this data from foursquare,we will recommend location for setting up a restaurant 
